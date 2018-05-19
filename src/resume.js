@@ -19,7 +19,7 @@ let skills = resume[2];
 
 skills.skills = skills.skills.map((item, index) => (
 
-  <div key={'"skills-' + index + '"'} className="skills"><div className="language">{item.skill}</div><div style={{width: item.years * 10 + "%"}} className="meter"></div><div className ="years">{(item.years > 1) ? item.years + ' years' : item.years + ' year' }</div></div>
+  <div key={'"skills-' + index + '"'} className="skills"><div className="language">{item.skill}</div><div style={{width: item.years * 4 + "%"}} className="meter"></div><div className ="years">{(item.years > 1) ? item.years + ' years' : item.years + ' year' }</div></div>
 ));
 
 let experience = resume[3];
