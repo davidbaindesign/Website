@@ -1,8 +1,8 @@
 {
     "home": {
           "text": [
-            "Hello and thanks for checking out my website! My name is David Bain. I am a certified front-end developer working for Orbis Education. Please feel free to look through my website. To the left I have links to my github, codepen, freeCodeCamp, and linkedIn profiles. I have experience with HTML, CSS, JavaScript, C, ColdFusion, SQL, and NodeJS. I also have experience with jquery, bootstrap, AngularJS, and React.",
-            "In my portfolio section you can see some scripts I have written. I also have a front-end development section, which displays some of the projects I have done. I started a WordPress blog that I will update to include explanations of my projects right here. I also have a Bachelor’s degree in computer graphic design. I have experience with most adobe programs and some of my designs are in the portfolio section as well. I have uploaded some of the projects to github.",
+            "Hello and thanks for checking out my website! My name is David Bain. I am a certified front-end developer working for Orbis Education. Please feel free to look through my website. In the footer I have links to my github, codepen, freeCodeCamp, and linkedIn profiles. I have experience with HTML, CSS, JavaScript, C, C#, ColdFusion, SQL, and NodeJS. I also have experience with jquery, bootstrap, AngularJS, and React.",
+            "I also have a Bachelor’s degree in computer graphic design. I have experience with most adobe programs, if you are interested in my design work please check out my old website linked in the portfolio section. I currently work at Orbis Education as a front in developer. Lately I have been learning a lot about developing Unity applications for the microsoft hololens.",
             "If you would like to know any more information feel free to contact me! Thanks."
           ]
     },
@@ -136,10 +136,10 @@
     ],
     "portfolio": {
       "text": [
-                "Here is my portfolio section. I have a handful of small apps displayed below. These were all made for freeCodeCamp projects.",
-                "For more examples of my work please go to my codepen or github account linked at the bottom.",
-                "If you are interested in my Graphic Design work I have some examples linked here and here."
+                "Welcome to my portfolio section. I have a handful of small apps displayed below. These were all made for freeCodeCamp projects. I recommend checking out my github and codepen accounts for more of my bigger projects. They are linked in the footer.",
+                "If you are interested in my design work or adobe scripts, please check out my old portfolio linked below."
               ],
+      "link": "old/portfolio.html",
       "projects": [
         {
           "title": "Wikipedia Viewer",

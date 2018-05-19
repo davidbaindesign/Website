@@ -5,13 +5,13 @@ import {resume} from './data.js';
 let education = resume[0];
 
 education.text = education.text.map((item, index) => (
-  <p>{item}</p>
+  <p key={'"eduText-' + index + '"'}>{item}</p>
 ));
 
 let achievements = resume[1];
 
 achievements.text = achievements.text.map((item, index) => (
-  <li>{item}</li>
+  <li key={'"achText-' + index + '"'}>{item}</li>
 ));
 
 let skills = resume[2];
@@ -19,7 +19,7 @@ let skills = resume[2];
 
 skills.skills = skills.skills.map((item, index) => (
 
-  <div className="skills"><div className="language">{item.skill}</div><div style={{width: item.years * 10 + "%"}} className="meter"></div><div className ="years">{(item.years > 1) ? item.years + ' years' : item.years + ' year' }</div></div>
+  <div key={'"skills-' + index + '"'} className="skills"><div className="language">{item.skill}</div><div style={{width: item.years * 10 + "%"}} className="meter"></div><div className ="years">{(item.years > 1) ? item.years + ' years' : item.years + ' year' }</div></div>
 ));
 
 let experience = resume[3];
@@ -27,27 +27,27 @@ let experience = resume[3];
 
 let experienceTitle = experience.experience.map((item, index) => (
   item.title.map((title, index1) => (
-    <p><strong>{title}</strong></p>
+    <p key={'"exTitle-' + index1 + '"'}><strong>{title}</strong></p>
   ))
 ));
 
 let experienceText = experience.experience.map((item, index) => (
   item.text.map((text, index1) => (
-    <li>{text}</li>
+    <li key={'"exText-' + index1 + '"'}>{text}</li>
   ))
 ));
 
 let exArr = [];
 for (let i = 0; i < experienceTitle.length; i ++) {
   exArr.push(experienceTitle[i]);
-  exArr.push(<ul>{experienceText[i]}</ul>);
+  exArr.push(<ul key={'"exTextWrap-' + i + '"'}>{experienceText[i]}</ul>);
 }
 
 let references = resume[4];
 
 
 references.references = references.references.map((item, index) => (
-  <div><p><strong>{item.name}</strong></p><p>{item.text}</p><p>{item.contact}</p><br /></div>
+  <div key={'"refText-' + index + '"'}><p><strong>{item.name}</strong></p><p>{item.text}</p><p>{item.contact}</p><br /></div>
 ));
 
 

@@ -80,16 +80,28 @@ class App extends Component {
 
     //speedX speedY
           if (direction === "Up") {
-            this.state.speedArr[0] ++;
+            this.setState(
+            {
+                speedArr: [this.state.speedArr[0] +1, this.state.speedArr[1], this.state.speedArr[2], this.state.speedArr[3]]
+            });
           }
           else if (direction === "Right") {
-            this.state.speedArr[1] ++;
+            this.setState(
+            {
+                speedArr: [this.state.speedArr[0], this.state.speedArr[1] +1, this.state.speedArr[2], this.state.speedArr[3]]
+            });
           }
           else if (direction === "Down") {
-            this.state.speedArr[2] ++;
+            this.setState(
+            {
+                speedArr: [this.state.speedArr[0], this.state.speedArr[1], this.state.speedArr[2]+1, this.state.speedArr[3]]
+            });
           }
           else if (direction === "Left") {
-            this.state.speedArr[3] ++;
+            this.setState(
+            {
+                speedArr: [this.state.speedArr[0], this.state.speedArr[1], this.state.speedArr[2], this.state.speedArr[3]+1]
+            });
           }
           //this.speed();
   }

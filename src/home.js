@@ -5,7 +5,7 @@ import {home} from './data.js';
 let newStyle = {left: '50%'};
 
 let paragraphs = home.text.map((item, index) => (
-  <p>{item}</p>
+  <p key={'"homeText-' + index + '"'}>{item}</p>
 ));
 
 export class Home extends Component {

@@ -34,9 +34,9 @@ export class Background extends Component {
 
     class StarMaker {
       constructor(canvas, size, howMany) {
-        this.ctx = canvas.getContext('2d'),
-        this.size = size,
-        this.howMany = howMany,
+        this.ctx = canvas.getContext('2d')
+        this.size = size
+        this.howMany = howMany
         this.canvas = canvas
       }
 
