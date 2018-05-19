@@ -1,0 +1,173 @@
+{
+    "home": {
+          "text": [
+            "Hello and thanks for checking out my website! My name is David Bain. I am a certified front-end developer working for Orbis Education. Please feel free to look through my website. To the left I have links to my github, codepen, freeCodeCamp, and linkedIn profiles. I have experience with HTML, CSS, JavaScript, C, ColdFusion, SQL, and NodeJS. I also have experience with jquery, bootstrap, AngularJS, and React.",
+            "In my portfolio section you can see some scripts I have written. I also have a front-end development section, which displays some of the projects I have done. I started a WordPress blog that I will update to include explanations of my projects right here. I also have a Bachelor’s degree in computer graphic design. I have experience with most adobe programs and some of my designs are in the portfolio section as well. I have uploaded some of the projects to github.",
+            "If you would like to know any more information feel free to contact me! Thanks."
+          ]
+    },
+    "resume": [
+        {
+            "title": "Education",
+            "text": ["Lewis University 2012 Romeoville, IL",
+            "Bachelor Degree of Arts in Computer Graphic Design GPA 3.72"]
+        },
+        {
+            "title": "Achievements",
+            "text": ["Certified Web Developer At FreeCodeCamp, (2016)",
+            "Achievement Award At Lids, (2015)",
+            "Departmental Senior Award At Lewis University, (2012)",
+            "Published Piece and First Prize Winner in the Computer Graphic Design Category, Lewis University’s Fine Arts Magazine, Windows (2012)",
+            "Honorable mention for the Photography Category, Lewis University Fine Arts Magazine Windows (2012)",
+            "Academic Dean's List, 6 Semesters Academic Honors, 5"]
+        },
+        {
+            "title": "Skills",
+            "skills": [
+              {
+                "skill": "HTML",
+                "years": 5
+              },
+              {
+                "skill": "CSS",
+                "years": 5
+              },
+              {
+                "skill": "JavaScript",
+                "years": 4
+              },
+              {
+                "skill": "ColdFusion",
+                "years": 1
+              },
+              {
+                "skill": "NodeJS",
+                "years": 1
+              },
+              {
+                "skill": "SQL",
+                "years": 1
+              },
+              {
+                "skill": "AngularJS",
+                "years": 1
+              },
+              {
+                "skill": "React",
+                "years": 1
+              },
+              {
+                "skill": "C#",
+                "years": 1
+              },
+              {
+                "skill": "Unity",
+                "years": 1
+              },
+              {
+                "skill": "Adobe Software",
+                "years": 6
+              },
+              {
+                "skill": "Microsoft Office",
+                "years": 8
+              }
+            ]
+        },
+        {
+          "title": "Work Experience",
+          "experience":
+          [
+            {
+              "title": [
+                "Orbis Education 2018, January 2018-Present",
+                "Front End and Multimedia Developer II:"],
+              "text": [
+                "Updates single page applications from Flash to HTML5 and JavaScript.",
+                "Creates reusable json driven templates to speed up conversion.",
+                "Creates dynamic web pages for the employee intranet.",
+                "Creates C# scripts for mixed reality applications."
+              ]
+            },
+            {
+              "title": [
+                "Orbis Education 2017, January 2018",
+                "Front End and Multimedia Developer I:"],
+              "text": [
+                "Updates single page applications from Flash to HTML5 and JavaScript.",
+                "Creates reusable json driven templates to speed up conversion.",
+                "Creates dynamic web pages for the employee intranet."
+              ]
+            },
+            {
+              "title": [
+                "Lids Team Sports 2013, October-January 2017",
+                "Production Artist / Programmer:"],
+              "text": [
+                "Sets up artwork for production ensuring the best product design.",
+                "Creates scripts with adobe software used in multiple departments to increase productivity.",
+                "Creates dynamic web pages for the employee website.",
+                "Manages multiple projects at a time with efficiency and accuracy.",
+                "Exceeds expectations with work-flow efficiency and time management of projects."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "References",
+          "references": [
+            {
+              "name": "Jim Cowan",
+              "text": "Graphic Design Director Publications, Lewis University",
+              "contact":  "cowanji@lewisu.edu, (815) 836-5299"
+            },
+            {
+              "name": "John Hazard",
+              "text": "Production Artist, Lids Team Sports",
+              "contact":  "johnnybhazard@gmail.com, (317) 508-2860"
+            },
+            {
+              "name": "Robin Buschner",
+              "text": "Associate Director of Marketing, Marian University",
+              "contact": "rbuchner@marian.edu, (317) 955-6570"
+            }
+          ]
+        }
+    ],
+    "portfolio": {
+      "text": [
+                "Here is my portfolio section. I have a handful of small apps displayed below. These were all made for freeCodeCamp projects.",
+                "For more examples of my work please go to my codepen or github account linked at the bottom.",
+                "If you are interested in my Graphic Design work I have some examples linked here and here."
+              ],
+      "projects": [
+        {
+          "title": "Wikipedia Viewer",
+          "description": "Below you will see a Wikipedia viewer app. Feel free to test out the search bar or hit the question mark for a random article. This was a fun project I used a bit of jquery and I gained some experience using Wikipedia’s API.",
+          "html": "<p data-height=\"463\" data-theme-id=\"0\" data-slug-hash=\"RayyxK\" data-default-tab=\"result\" data-user=\"davidbaindesign\" data-embed-version=\"2\" class=\"codepen\">See the Pen <a href=\"http://codepen.io/davidbaindesign/pen/RayyxK/\">Wikipedia Viewer</a> by David Bain (<a href=\"http://codepen.io/davidbaindesign\">@davidbaindesign</a>) on <a href=\"http://codepen.io\">CodePen</a>.</p>",
+          "img": "wiki.jpg"
+        },
+        {
+          "title": "Simon Game",
+          "description": "This is a simon game. It is a lot easier if you have the sound turned on. It was inspired by super nintendo.",
+          "html": "<p data-height=\"463\" data-theme-id=\"0\" data-slug-hash=\"YWGNYv\" data-default-tab=\"result\" data-user=\"davidbaindesign\" data-embed-version=\"2\" class=\"codepen\">See the Pen <a href=\"http://codepen.io/davidbaindesign/pen/YWGNYv/\">Simon Game</a> by David Bain (<a href=\"http://codepen.io/davidbaindesign\">@davidbaindesign</a>) on <a href=\"http://codepen.io\">CodePen</a>.</p>",
+          "img": "nintendo.jpg"
+        },
+        {
+          "title": "Pomodoro",
+          "description": "This is a pomodoro timer. You can adjust the time to however many minutes you want. I gained some experience using html canvas. I used the parametric equation to calculate the orbit of the little circle to align perfectly with the end of the stroked path.",
+          "html": "<p data-height=\"600\" data-theme-id=\"0\" data-slug-hash=\"qNdOMd\" data-default-tab=\"result\" data-user=\"davidbaindesign\" data-embed-version=\"2\" class=\"codepen\">See the Pen <a href=\"http://codepen.io/davidbaindesign/pen/qNdOMd/\">Pomodoro Clock</a> by David Bain (<a href=\"http://codepen.io/davidbaindesign\">@davidbaindesign</a>) on <a href=\"http://codepen.io\">CodePen</a>.</p>",
+          "img": "pomodoro.jpg"
+        },
+        {
+          "title": "Calculator",
+          "description": "This is a calculator that I made for a freecodecamp project. I really like the way it turned out. Feel free to test it out it is fully functional. I used jquery and some nice looking google fonts. This was one of my first projects and it is still one of my favorites.",
+          "html": "<p data-height=\"463\" data-theme-id=\"0\" data-slug-hash=\"QEwmMr\" data-default-tab=\"result\" data-user=\"davidbaindesign\" data-embed-version=\"2\" class=\"codepen\">See the Pen <a href=\"http://codepen.io/davidbaindesign/pen/QEwmMr/\">Calculator</a> by David Bain (<a href=\"http://codepen.io/davidbaindesign\">@davidbaindesign</a>) on <a href=\"http://codepen.io\">CodePen</a>.</p>",
+          "img": "calculator.jpg"
+        }
+      ]
+    },
+    "contact": {
+      "text": "Email: davidbaindesign@gmail.com"
+    }
+  }

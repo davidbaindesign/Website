@@ -1,0 +1,591 @@
+html {
+	height: 100%;
+}
+
+body {
+	margin: 0 auto;
+	padding: 0;
+	color: black;
+	font-family: Arial, sans-serif;
+	height: 100%;
+	overflow: hidden;
+	color: #666;
+}
+
+.clearfix {
+	clear: both;
+}
+
+
+header {
+	z-index: 7;
+	width: 100%;
+	margin: 0 auto;
+	border: 1px solid white;
+	background-color: white;
+
+	background-repeat: no-repeat;
+	background-position: right;
+	height: 70px;
+	-webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+	position: relative;
+
+}
+
+header:after {
+  background: inherit;
+  top: 35px;
+  content: '';
+  display: block;
+  height: 100%;
+	width: 120%;
+  left: 50%;
+	transform: translateX(-50%);
+  position: absolute;
+  right: 0;
+
+  z-index: -1;
+	border-radius: 50%;
+}
+
+header .logo {
+	margin: 20px;
+	height: 72%;
+
+}
+
+header h1 {
+	color: #000;
+	float: right;
+	font-size: 25px;
+	padding-right: 20px;
+	position: absolute;
+	width: 120px;
+	text-align: right;
+	right: 0;
+	bottom: 0;
+	margin: 0px 0;
+}
+
+.container {
+	width: 90%;
+	top: 0px;
+	left: 0px;
+	max-height: calc(100% - 166px);
+	/*min-width: 1175px;*/
+	max-width: 1175px;
+	margin: 40px auto 0;
+	position: relative;
+	height: 90%;
+	z-index: 5;
+	/*transition: left .8s, top .8s;*/
+	/* transition: all .3s */
+
+
+}
+
+.container .divider {
+	width: 100%;
+	height: 7px;
+	background-color: #ddd;
+}
+
+/* Overlays */
+.overlay {
+	width: 100%;
+	height: 100%;
+	padding-top: 60px;
+}
+
+.overlay-container {
+	width: 100%;
+	height: 100%;
+	padding-top: 60px;
+	top: 0;
+	position: absolute;
+	z-index: 1002;
+	background-color: rgba(0,0,0,0.3);
+}
+
+.loading {
+	text-align: center;
+	padding-top: 90px;
+}
+
+.loading i {
+	font-size: 72px;
+	color: #595959;
+}
+
+#loading {
+	z-index: 99;
+}
+
+
+
+header button {
+	margin: 20px 10px;
+	text-align: center;
+	color: #000;
+	background-color: #fff;
+	border: none;
+	border: 1px solid #000;
+	border-radius: 5px;
+	width: 100px;
+	padding: 8px 0px;
+	font-size: 14px;
+	cursor: pointer;
+	display: inline-block;
+	float: left;
+	transition: width 1s;
+}
+
+header button:hover {
+	background: #000;
+	color: #fff;
+	border: 1px solid #000;
+}
+header button:active {
+	background: red;
+	color: white;
+	border: 1px solid red;
+}
+
+header img {
+	display: inline-block;
+	float: left;
+	margin-right: 50px;
+}
+.nav {
+	width: 50px;
+}
+
+.button-container {
+		margin-top: 15px;
+    display: inline-block;
+		margin-left: 50px;
+
+}
+
+
+button[disabled=disabled], button:disabled {
+	cursor: default;
+	opacity: 0.3;
+}
+
+footer {
+
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #fff;
+	height: 50px;
+	width: 100%;
+
+	margin: 0 auto;
+	z-index: 9;
+	bottom: 30px;
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+	font-size: 11px;
+}
+
+.footer {
+	padding: 12px;
+}
+
+footer span {
+	padding-top: 10px;
+
+}
+
+.red {
+	color: red;
+}
+
+.red:hover {
+	color: red;
+	background: #fff;
+}
+
+
+.body {
+  width: 100%;
+  height: 100%;
+  background: #500;
+	position: absolute;
+	top: 0;
+	overflow: hidden;
+
+}
+
+#root {
+	width: 100%;
+	height: 100%;
+}
+
+.root {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+#background {
+  z-index: 0;
+  position: absolute;
+}
+
+#clouds {
+  z-index: 1;
+  position: absolute;
+
+}
+
+#top {
+  z-index: 3;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translate(-50%,-50%);
+	/*transition: left .5s, top .5s;*/
+}
+
+#middle {
+  z-index: 2;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translate(-50%,-50%);
+	/*transition: left .5s, top .5s;*/
+}
+
+.transition {
+	transition: left .5s, top .5s;
+}
+
+.text {
+	background: #fff;
+	margin: 10px;
+	overflow: auto;
+	max-height: calc(100% - 20px);
+
+
+}
+
+.text p {
+	padding: 15px 15px;
+	margin: 0;
+	color: #666;
+}
+
+.text input[type=text] {
+	margin: 0 15px;
+	color: #666;
+	border: 1px solid #000;
+	border-radius: 3px;
+	padding: 5px;
+}
+
+.text input[type=submit], .text input[type=reset] {
+	border: 1px solid #000;
+	background: #fff;
+	border-radius: 3px;
+	color: #000;
+	cursor: pointer;
+	margin: 10px 2px;
+	padding: 5px 0;
+	width: 60px;
+
+}
+
+.text input[type=submit] {
+	margin: 10px 2px 10px 15px;
+}
+
+.text input[type=submit]:hover, .text input[type=reset]:hover {
+	color: red;
+}
+
+.text textarea {
+	margin: 0 15px;
+	color: #666;
+	border: 1px solid #000;
+	border-radius: 3px;
+	padding: 5px;
+}
+
+.text ul {
+
+	color: #666;
+	line-height: 1.5;
+}
+
+.text h4 {
+	padding: 15px 0px;
+	margin: 15px 15px 5px 15px;
+	color: red;
+	font-size: 20px;
+	border-bottom: 1px solid #ccc;
+
+}
+
+.smallText p {
+	padding: 5px 15px;
+}
+
+.content {
+ position: absolute;
+ left: 50%;
+ transition: left .5s;
+ width: 100%;
+ height: 100%;
+ background: rgba(255, 255, 255, 0.5);
+ transform: translateX(-50%);
+}
+
+.content h1 {
+	color: white;
+	background: black;
+	margin: 0;
+	padding: 15px;
+
+}
+
+.skillsContainer {
+	padding: 15px;
+}
+
+.skills .meter {
+	background: red;
+	height: 10px;
+	display: inline-block;
+	margin-left: 8px;
+}
+
+.years {
+	display: inline-block;
+	float: right;
+	color: #fff;
+}
+
+.skills {
+	margin: 0px;
+	padding: 8px;
+}
+
+.skills:hover {
+	background: #666;
+	color: #fff;
+
+}
+
+.language {
+	text-align: right;
+	width: 120px;
+	display: inline-block;
+}
+
+
+
+.textOver {
+	cursor: default;
+	text-align: center;
+	position: relative;
+	font-size: 12px;
+	top: -169px;
+	width: 272px;
+	height: 165px;
+	background: #fff;
+	color: #000;
+	opacity: 0;
+	box-shadow: 0 0 5px #777;
+	transition: opacity .5s;
+}
+.textOver p {
+	text-align: left;
+}
+.textOver button {
+	border: 1px solid #000;
+	background: #fff;
+	border-radius: 3px;
+	color: #000;
+	cursor: pointer;
+}
+.textOver button:hover {
+	border: 1px solid #000;
+	background: #fff;
+	border-radius: 3px;
+	color: red;
+}
+.textOver:hover {
+	opacity: 0.9;
+}
+
+.preview {
+	display: none;
+}
+
+.show {
+	display: block;
+}
+
+.portfolioContainer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	padding: 5px;
+	overflow: hidden;
+}
+
+.imageContainer {
+
+	border: 3px solid #777;
+	width: 272px;
+	height: 165px;
+}
+
+.imageContainer img {
+	width: 100%;
+}
+
+.sideButtons {
+	display: inline-block;
+	background: #fff;
+	border: 1px solid #000;
+	margin: 2px 4px;
+	width: 40px;
+	height: 23px;
+	border-radius: 3px;
+	font-size: 15px;
+	color: #000;
+	cursor: pointer;
+}
+
+.sideButtons:hover {
+	color: red;
+}
+
+.switch-container {
+	position: absolute;
+	right: 200px;
+	top: 35px;
+	z-index: 1000;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {display:none;}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #f77;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #f77;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 940px) {
+    header button {
+				margin: 20px 2px;
+				width: 70px;
+    }
+		.switch-container {
+			right: 130px;
+		}
+}
+
+@media screen and (max-width: 680px) {
+    header h1 {
+				display: none;
+    }
+		.button-container {
+			margin-left: 0;
+		}
+		.switch-container {
+			right: 20px;
+		}
+}
+
+
+@media screen and (max-width: 510px) {
+	.button-container {
+		width: 200px;
+	}
+
+	header button {
+			margin: 2px 2px;
+			width: 70px;
+	}
+
+}
+
+@media screen and (max-width: 370px) {
+
+	header .logo {
+			margin: 20px 10px;
+	}
+	.switch-container {
+		right: 10px;
+	}
+
+}
+@media screen and (max-width: 340px) {
+
+	header .logo {
+			display: none;
+	}
+	.switch-container {
+		display: none;
+	}
+	.button-container {
+		width: 100%;
+		margin-top: 25px;
+	}
+
+}
