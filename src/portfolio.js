@@ -65,7 +65,7 @@ export class Portfolio extends Component {
       <div className="content" style={newStyle}>
         <div className = "text">
         <h1>Portfolio</h1>
-        <div>{text}<a href={portfolio.link}>Old Portfolio</a></div>
+         <div>{text /*<a href={portfolio.link}>Old Portfolio</a>*/}</div> 
         <div className="portfolioContainer">
           {projects}
         </div>
