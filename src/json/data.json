@@ -1,8 +1,8 @@
 {
     "home": {
           "text": [
-            "Hello and thanks for checking out my website! My name is David Bain. I am a certified front-end developer working for Orbis Education. Please feel free to look through my website. In the footer I have links to my github, codepen, freeCodeCamp, and linkedIn profiles. I have experience with HTML, CSS, JavaScript, C, C#, ColdFusion, SQL, and NodeJS. I also have experience with jquery, bootstrap, AngularJS, and React.",
-            "I also have a Bachelor’s degree in computer graphic design. I have experience with most adobe programs, if you are interested in my design work please check out my old website linked in the portfolio section. I currently work at Orbis Education as a front in developer. Lately I have been learning a lot about developing Unity applications for the microsoft hololens.",
+            "Hello and thanks for checking out my website! My name is David Bain. I am a certified front-end developer as well as an XR developer working for Orbis Education. Please feel free to look through my website. In the footer I have links to my github, codepen, freeCodeCamp, and linkedIn profiles. I have experience with HTML, CSS, JavaScript, C, C#, ColdFusion, SQL, and NodeJS. I also have experience with jquery, bootstrap, AngularJS, and React.",
+            "I also have a Bachelor’s degree in computer graphic design and have experience with several adobe programs. I currently work at Orbis Education as a front-end and XR developer. Lately I have been focusing on developing Unity applications for the microsoft hololens.",
             "If you would like to know any more information feel free to contact me! Thanks."
           ]
     },
@@ -34,39 +34,39 @@
               },
               {
                 "skill": "JavaScript",
-                "years": 4
+                "years": 5
               },
               {
                 "skill": "ColdFusion",
-                "years": 1
+                "years": 2
               },
               {
                 "skill": "NodeJS",
-                "years": 1
+                "years": 2
               },
               {
                 "skill": "SQL",
-                "years": 1
+                "years": 2
               },
               {
                 "skill": "AngularJS",
-                "years": 1
+                "years": 2
               },
               {
                 "skill": "React",
-                "years": 1
+                "years": 2
               },
               {
                 "skill": "C#",
-                "years": 1
+                "years": 2
               },
               {
                 "skill": "Unity",
-                "years": 1
+                "years": 2
               },
               {
                 "skill": "Adobe Software",
-                "years": 6
+                "years": 7
               },
               {
                 "skill": "Microsoft Office",
@@ -136,10 +136,8 @@
     ],
     "portfolio": {
       "text": [
-                "Welcome to my portfolio section. I have a handful of small apps displayed below. These were all made for freeCodeCamp projects. I recommend checking out my github and codepen accounts for more of my bigger projects. They are linked in the footer.",
-                "If you are interested in my design work or adobe scripts, please check out my old portfolio linked below."
+                "Welcome to my portfolio section. I have a handful of small apps displayed below. These were all made for freeCodeCamp projects. I recommend checking out my github and codepen accounts for more of my bigger projects. They are linked in the footer."
               ],
-      "link": "old/portfolio.html",
       "projects": [
         {
           "title": "Wikipedia Viewer",
