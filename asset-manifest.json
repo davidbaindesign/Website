@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c1ba11d4.chunk.css",
+    "main.js": "/static/js/main.c625ba33.chunk.js",
+    "main.js.map": "/static/js/main.c625ba33.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ed9d8f35.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ed9d8f35.js.map",
+    "static/js/2.17e9efaa.chunk.js": "/static/js/2.17e9efaa.chunk.js",
+    "static/js/2.17e9efaa.chunk.js.map": "/static/js/2.17e9efaa.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.69f4a0579dcff87819d5738f40fdbb09.js": "/precache-manifest.69f4a0579dcff87819d5738f40fdbb09.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.c1ba11d4.chunk.css.map": "/static/css/main.c1ba11d4.chunk.css.map",
+    "static/js/2.17e9efaa.chunk.js.LICENSE": "/static/js/2.17e9efaa.chunk.js.LICENSE",
+    "static/media/baindesign.jpg": "/static/media/baindesign.4634449c.jpg",
+    "static/media/baindesign.png": "/static/media/baindesign.e5f1ea61.png",
+    "static/media/calculator.jpg": "/static/media/calculator.7574ee73.jpg",
+    "static/media/font-awesome.min.css": "/static/media/fontawesome-webfont.f84ffa8d.woff",
+    "static/media/nintendo.jpg": "/static/media/nintendo.69272070.jpg",
+    "static/media/pomodoro.jpg": "/static/media/pomodoro.5f78347b.jpg",
+    "static/media/weather.jpg": "/static/media/weather.f304b354.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ed9d8f35.js",
+    "static/js/2.17e9efaa.chunk.js",
+    "static/css/main.c1ba11d4.chunk.css",
+    "static/js/main.c625ba33.chunk.js"
+  ]
+}
