@@ -1,8 +1,8 @@
 {
     "home": {
           "text": [
-            "Hello and thanks for checking out my website! My name is David Bain. I am a certified front-end developer as well as an XR developer working for Orbis Education. Please feel free to look through my website. In the footer I have links to my github, codepen, freeCodeCamp, and linkedIn profiles. I have experience with HTML, CSS, JavaScript, C, C#, ColdFusion, SQL, and NodeJS. I also have experience with jquery, bootstrap, AngularJS, and React.",
-            "I also have a Bachelor’s degree in computer graphic design and have experience with several adobe programs. I currently work at Orbis Education as a front-end and XR developer. Lately I have been focusing on developing Unity applications for the microsoft hololens.",
+            "Hello and thanks for checking out my website! My name is David Bain. I am a certified front-end developer as well as an XR develepment manager working for Orbis Education. Please feel free to look through my website. In the footer I have links to my github, codepen, freeCodeCamp, and linkedIn profiles. I have experience with HTML, CSS, JavaScript, C, C#, ColdFusion, SQL, and NodeJS. I also have experience with jquery, bootstrap, AngularJS, and React.",
+            "I also have a Bachelor’s degree in computer graphic design and have experience with several adobe programs. Lately I have been focusing on developing Unity applications for the microsoft hololens.",
             "If you would like to know any more information feel free to contact me! Thanks."
           ]
     },
@@ -80,13 +80,40 @@
           [
             {
               "title": [
-                "Orbis Education 2018, January 2018-Present",
+                "Orbis Education 2021, November 2021-Present",
+                "Extended Reality (XR) Manager:"],
+              "text": [
+                "Created and developed company’s first XR and Mixed-reality Development team.",
+                "Leads, coaches, and manages an engineer oriented XR development team.",
+                "Creates an environment that supports creativity and professional growth opportunities.",
+                "Utilizes Azure, IBM, and consistently remains attuned to developing technologies to enhance software deliverables.", 
+                "Excels at emerging technologies, XR development, front and back-end web development, artificial intelligence communication through conversational AI, and spatial computing.",
+                "Coaches and leads all staff to enhance, develop and create best possible XR patient and real-life clinical experience for nursing students.",
+                "Completes all management duties and tasks for assigned staff members.",
+                "Directs and provides hands-on coaching for staff developers to overcome engineering and complex code.",
+                "Developed reusable code and workflow enhancements for high-performing team."
+              ]
+            },
+            {
+              "title": [
+                "Orbis Education 2020, May 2020-November 2021",
+                "Extended Reality (XR) Developer:"],
+              "text": [
+                "Developed Unity C# applications across multiple platforms.",
+                "Created state of the art prototype for a mixed reality patient simulator.",
+                "Created Unity C# SDK to help us deploy apps faster."
+              ]
+            },
+            {
+              "title": [
+                "Orbis Education 2018, January 2018-May 2020",
                 "Front End and Multimedia Developer II:"],
               "text": [
-                "Updates single page applications from Flash to HTML5 and JavaScript.",
-                "Creates reusable json driven templates to speed up conversion.",
-                "Creates dynamic web pages for the employee intranet.",
-                "Creates C# scripts for mixed reality applications."
+                "Developed single page applications from Flash to HTM5 and JavaScript.",
+                "Created reusable json driven templates to speed up conversion.", 
+                "Created dynamic web pages for the employee intranet.", 
+                "Converted jquery templates to React-Redux.",
+                "Maintained virtual medicine administration desktop application using Angular JS, Node JS, SQL Server, and Electron."
               ]
             },
             {
@@ -117,19 +144,19 @@
           "title": "References",
           "references": [
             {
+              "name": "David Auble",
+              "text": "Associate Director, Digital Engagement, Customer Experience, Eli Lilly and Company",
+              "contact":  "dauble2k5@gmail.com, (317) 979-5297"
+            },
+            {
+              "name": "Sydney Micklas",
+              "text": "Platform Android Software Engineer, WillowTree",
+              "contact":  "micklas.sydney@gmail.com, (248) 805-7403"
+            },
+            {
               "name": "Jim Cowan",
               "text": "Graphic Design Director Publications, Lewis University",
-              "contact":  "cowanji@lewisu.edu, (815) 836-5299"
-            },
-            {
-              "name": "John Hazard",
-              "text": "Production Artist, Lids Team Sports",
-              "contact":  "johnnybhazard@gmail.com, (317) 508-2860"
-            },
-            {
-              "name": "Robin Buschner",
-              "text": "Associate Director of Marketing, Marian University",
-              "contact": "rbuchner@marian.edu, (317) 955-6570"
+              "contact": "cowanji@lewisu.edu, (815) 836-5299"
             }
           ]
         }
