@@ -26,51 +26,51 @@
             "skills": [
               {
                 "skill": "HTML",
-                "years": 5
-              },
-              {
-                "skill": "CSS",
-                "years": 5
-              },
-              {
-                "skill": "JavaScript",
-                "years": 5
-              },
-              {
-                "skill": "ColdFusion",
-                "years": 2
-              },
-              {
-                "skill": "NodeJS",
-                "years": 2
-              },
-              {
-                "skill": "SQL",
-                "years": 2
-              },
-              {
-                "skill": "AngularJS",
-                "years": 2
-              },
-              {
-                "skill": "React",
-                "years": 2
-              },
-              {
-                "skill": "C#",
-                "years": 2
-              },
-              {
-                "skill": "Unity",
-                "years": 2
-              },
-              {
-                "skill": "Adobe Software",
                 "years": 7
               },
               {
+                "skill": "CSS",
+                "years": 7
+              },
+              {
+                "skill": "JavaScript",
+                "years": 7
+              },
+              {
+                "skill": "ColdFusion",
+                "years": 5
+              },
+              {
+                "skill": "NodeJS",
+                "years": 5
+              },
+              {
+                "skill": "SQL",
+                "years": 5
+              },
+              {
+                "skill": "AngularJS",
+                "years": 5
+              },
+              {
+                "skill": "React",
+                "years": 5
+              },
+              {
+                "skill": "C#",
+                "years": 5
+              },
+              {
+                "skill": "Unity",
+                "years": 5
+              },
+              {
+                "skill": "Adobe Software",
+                "years": 9
+              },
+              {
                 "skill": "Microsoft Office",
-                "years": 8
+                "years": 10
               }
             ]
         },
