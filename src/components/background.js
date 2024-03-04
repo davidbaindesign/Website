@@ -159,10 +159,7 @@ export class Background extends Component {
       style = {left: left + '%', top: top + '%'};
       style2 = {left: left/2 + '%', top: top/2 + '%'};
     }
-
-
-
-
+    
     return (
       <div className="body">
         <canvas style={style} id="top" className={this.props.manual ? "" : "transition"}>

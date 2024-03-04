@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 
 
-import {Header} from './header';
-import {Footer} from './footer';
+import {Header} from './components/header';
+import {Footer} from './components/footer';
 
-import {Load} from './load';
-import {AppContainer} from './appContainer';
-import {Background} from './background';
+import {Load} from './components/load';
+import {AppContainer} from './components/appContainer';
+import {Background} from './components/background';
 
 
 

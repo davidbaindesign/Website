@@ -9,9 +9,6 @@ export class AppContainer extends Component {
 
 
   render() {
-
-
-
     return (
       <section className="content-container" id="content-container">
         <Home current={this.props.current} />

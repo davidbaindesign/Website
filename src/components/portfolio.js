@@ -8,7 +8,7 @@ function importAll(r) {
   return images;
 }
 
-export const images = importAll(require.context('./img', false, /\.(png|jpe?g|svg)$/));
+export const images = importAll(require.context('../img', false, /\.(png|jpe?g|svg)$/));
 
 
 

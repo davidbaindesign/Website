@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './img/baindesign.png';
+import logo from '../img/baindesign.png';
 
 export class Header extends Component {
 
